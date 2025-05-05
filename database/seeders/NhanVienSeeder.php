@@ -102,6 +102,18 @@ class NhanVienSeeder extends Seeder
                 'tinh_trang' => 1,
                 'id_chuc_vu' => 22,
                 'is_master' => 0,
+            ],
+            [
+                'email' => 'tranhuuhai231@gmail.com',
+                'ho_va_ten' => 'Trần Hữu Hải',
+                'password' => '123456',
+                'so_dien_thoai' => '0967890123',
+                'dia_chi' => 'Đà Nẵng',
+                'ngay_sinh' => '2003-07-28',
+                'avatar' => null,
+                'tinh_trang' => 1,
+                'id_chuc_vu' => 22,
+                'is_master' => 0,
             ]
         ]);
 
