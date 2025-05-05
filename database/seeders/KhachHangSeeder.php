@@ -115,6 +115,20 @@ class KhachHangSeeder extends Seeder
                 'is_active'     => 1,
                 'is_block'      => 0,
             ],
+            [
+                'id'            => 8,
+                'ho_va_ten'     => 'Trần Hữu Hải',
+                'so_dien_thoai' => '0123456789',
+                'email'         => 'tranhuuhai231@gmail.com',
+                'password'      => '123456',
+                'cccd'          => '1593574562584',
+                'ngay_sinh'     => '2003-07-28',
+                'avatar'        => "https://i.pinimg.com/564x/94/9b/8d/949b8d8d9229693ba9d53b054b738e2a.jpg",
+                'hash_reset'    => null,
+                'hash_active'   => null,
+                'is_active'     => 1,
+                'is_block'      => 0,
+            ],
         ]);
     }
 }
