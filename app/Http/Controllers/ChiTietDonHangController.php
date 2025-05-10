@@ -117,7 +117,7 @@ class ChiTietDonHangController extends Controller
         $response_distance  = json_decode($body, true);
         try {
             $khoang_cach        = $response_distance['routes'][0]['summary']['distance'];
-            $phi_ship           = round($khoang_cach * 25000, -3); // 20.000đ/km
+            $phi_ship           = round($khoang_cach * 1500, -3); // 20.000đ/km
         } catch (\Exception $e) {
             $phi_ship  = 25000;
         }
@@ -269,7 +269,7 @@ class ChiTietDonHangController extends Controller
         $response_distance  = json_decode($body, true);
         try {
             $khoang_cach        = $response_distance['routes'][0]['summary']['distance'];
-            $phi_ship           = round($khoang_cach * 25000, -3); // 20.000đ/km
+            $phi_ship           = round($khoang_cach * 1500, -3); // 20.000đ/km
         } catch (\Exception $e) {
             $phi_ship  = 25000;
         }
